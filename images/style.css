@@ -1,0 +1,410 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+
+    padding: 10px;
+    background: linear-gradient(122deg, #FBB8FF 1.76%, #ABF7F8 103.04%);
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: left; /* Align children in a row with space between them */
+    align-items: center; /* Center items vertically */
+}
+
+header h1 {
+    width: 55.07px;
+    height: 58.919px;
+    color: #A053CF; /* Set text color to #A053CF */
+    margin: 20px 0; /* Add space top and bottom */
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+}
+nav a {
+    margin-left: 70px;
+    width: 120px;
+    height: 29px;
+    height: 29px;
+    font-weight: bold; 
+    text-decoration: none; /* Remove text decoration */
+    color: black; /* Set link color to black */
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-logo {
+   width: 55.07px;
+   height: 58.919px;
+   margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-details {
+    flex-grow: 1;
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
+
+.project-details h1 {
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+    clear: both; /* Clear any floats */
+}
+
+.project-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.project-description {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+@media screen and (max-width: 400px) {
+    .project-details h1 {
+        display: block;
+    }
+}
+.project-image {
+    flex-grow: 1;
+    padding: 20px;
+}
+.project-image img {
+    max-width: 100%; /* Set the maximum width to 100% */
+    max-height: 100%; /* Set the maximum height to 100% */
+}
+.resume-button {
+    display: inline-block;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 70px;
+    
+    text-transform: capitalize;
+    border-radius: 25px;
+    background: #DC61F9;
+    backdrop-filter: blur(25px);
+  }
+
+  /* Remove button blur on hover (optional) */
+  .resume-button:hover {
+    backdrop-filter: blur(0);
+  }
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.template{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.templateimg {
+    width: 900px;
+    height: 500px; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed its original size */
+   
+    
+    margin: 0 auto;;
+    
+    text-align: center;
+}
+.template h1{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-family: Solway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.template h2{
+    color: #000;
+    margin-top: 60px;
+}
+
+
+.showme {
+    display: inline-block;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    justify-content: center;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 70px;
+    
+    text-transform: capitalize;
+    border-radius: 25px;
+    background: #DC61F9;
+    backdrop-filter: blur(25px);
+  }
+  .animation{
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .animation h1{
+    color: #000;
+
+    text-align: left;
+   
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+   
+  }
+  .round-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+.glow {
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0%, 100% {
+        background-color: black;
+        color: white;
+    }
+    50% {
+        background-color: white;
+        color: black;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-div {
+    width: 500px;
+    height: 310px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    border-radius: 26px;
+    background: linear-gradient(180deg, #ABF7F8 0%, #E6A2F1 100%);
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.custom-image {
+    width: 182px;
+    height: 165.717px;
+    margin-right: 10px;
+}
+.box {
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.container h2,
+.container p {
+    /* Your shared styles for h2 and p within .container */
+    padding: 15px; /* Add the desired padding value */
+    font-weight: bold;
+   
+}
+.container p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.custom-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .logo {
+    width: 50px; /* Set the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Adjust as needed */
+    margin-left: 50px;
+  }
+
+  .product-name {
+    font-size: 30px; /* Adjust as needed */
+    font-weight: bold;
+    color: #A053CF; 
+    margin-left: 10px;
+  }
+
+ 
+       
+        
+
+        footer {
+         
+            color:black;
+            text-align: left; /* Change to left alignment */
+            padding: 20px;
+            display: flex;
+            margin-left: 20px;
+          
+           
+            flex-direction: row; /* Align elements in a row */
+            justify-content: space-between; /* Add space between elements */
+        }
+
+        .all{
+            margin-left: 0px;
+        }
+
+        .stay-connected-heading {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 0px;
+            /* Add any other styles you want for the h2 */
+        }
+
+        .social-icons {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .social-icons img,
+        .footer-images img {
+            width: 30px; /* Adjust the size as needed */
+            margin: 0 10px; /* Adjust the spacing between icons */
+        }
+
+        .footer-images {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column; /* Align images in a column */
+        }
+
+        .footer-links {
+         
+            display: flex;
+            flex-direction: column; /* Align links in a column */
+            align-items: flex-start; /* Align vertically */
+            margin-top: 20px;
+        }
+
+        .footer-links a {
+            color: black;
+            text-decoration: none;
+            margin-bottom: 10px; /* Adjust the spacing between links */
+        }
+        .sociallinks{
+            display: flex;
+            flex-direction: row;
+            color: black; /* Set the color to black */
+            font-size: 24px; /* Set the font size */
+            margin-right: 60px;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
+        .imgplay{
+            display: flex;
+            flex-direction: column
+            ;
+            margin-top: 30px;
+            
+
+        }
+        .footer-links .about-resume-builder {
+            font-weight: bold;}
+        .footer-linkse .about-resume-builder {
+                font-weight: bold;
+                font-size: 24px;
+              
+            }
+        .stay {
+            margin-bottom: 10px; /* Adjust the margin as needed */
+            }
+        .footer-linkse {
+            
+            display: flex;
+            flex-direction: column; /* Align links in a column */
+            align-items: flex-start; /* Align vertically */
+            margin-top: 50px;
+          
+                }
+        
+        .footer-linkse a {
+            color: black;
+            text-decoration: none;
+            margin-bottom: 10px; /* Adjust the spacing between links */
+                }   
+                
+        .footer-linkse a {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .centered-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            margin-top: 20px;
+        }
+
+        
+        .centered-content img {
+            margin-bottom: 10px;
+            height: 30px;
+           
+        }
+        .centered-content p {
+           margin-right: 30px;
+           font-weight: 500;
+           
+        }
+        .copyright-content{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
